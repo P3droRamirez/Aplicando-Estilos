@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity {
         cbCursiva.setOnCheckedChangeListener((compoundButton, b) -> cambiarEstilo());
         swtOscuro.setOnCheckedChangeListener((compoundButton, b) -> modoOscuro());
 
-
-
     }
 
     public void seleccionarColor(){
