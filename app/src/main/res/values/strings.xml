@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplicando Estilos Repaso</string>
+    <string name="labelColor">Color: </string>
+    <string name="labelEstilo">Estilo: </string>
+    <string name="rbRojo">Rojo</string>
+    <string name="rbVerde">Verde</string>
+    <string name="rbAzul">Azul</string>
+    <string name="cbNegrita">Negrita</string>
+    <string name="cbCursiva">Cursiva</string>
+    <string name="swtOscuro">Modo oscuro</string>
+    <string name="swtLog">Informacion Log</string>
+</resources>

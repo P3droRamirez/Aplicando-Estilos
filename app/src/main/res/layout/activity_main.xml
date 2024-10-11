@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelColor" />
+
+        <RadioGroup
+            android:id="@+id/rgColores"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp">
+
+            <RadioButton
+                android:id="@+id/rbRojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbRojo" />
+
+            <RadioButton
+                android:id="@+id/rbVerde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbVerde" />
+
+            <RadioButton
+                android:id="@+id/rbAzul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbAzul" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelEstilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelEstilo" />
+
+        <CheckBox
+            android:id="@+id/cbNegrita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/cbNegrita" />
+
+        <CheckBox
+            android:id="@+id/cbCursiva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/cbCursiva" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/labelResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swtOscuro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/swtOscuro" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swtLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/swtLog" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
