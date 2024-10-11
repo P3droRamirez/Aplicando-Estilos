@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         swtOscuro.setOnCheckedChangeListener((compoundButton, b) -> modoOscuro());
 
     }
-
     public void seleccionarColor(){
         if(rgColores.getCheckedRadioButtonId() == R.id.rbRojo){
             labelFinal.setTextColor(Color.RED);
